@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestableWebbyHelloWorld",
+            "request": "launch",
+            "mainClass": "za.co.wethinkcode.GET.TestableWebbyHelloWorld",
+            "projectName": "learning_first_api"
+        },
+        {
+            "type": "java",
+            "name": "Launch WebbyHelloWorld",
+            "request": "launch",
+            "mainClass": "za.co.wethinkcode.GET.WebbyHelloWorld",
+            "projectName": "learning_first_api"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreetingApi",
+            "request": "launch",
+            "mainClass": "za.co.wethinkcode.POST.GreetingApi",
+            "projectName": "learning_first_api"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuoteServer",
+            "request": "launch",
+            "mainClass": "za.co.wethinkcode.QuoteApi.QuoteServer",
+            "projectName": "learning_first_api"
+        }
+    ]
+}

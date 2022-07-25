@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java",
+			"mainClass": "za.co.wethinkcode.persist.RecipeDbDemo",
+			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"elements": [
+				"${compileOutput}",
+				"${dependencies}"
+			],
+			"problemMatcher": [],
+			"label": "java: exportjar:recipeapp-3-eod",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
