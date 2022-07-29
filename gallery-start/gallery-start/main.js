@@ -18,16 +18,13 @@ for ( let i = 0; i < images.length; i++ ) {
     thumbBar.appendChild( newImage );
 }
 
-let dimmed = false;
 /* Wiring up the Darken/Lighten button */
 btn.addEventListener( "click", function() {
 
-    if (dimmed) {
-        overlay.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        dimmed = false;
-    } else {
+    if (overlay.style.backgroundColor == "rgba(0, 0, 0, 0)") {
         overlay.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-        dimmed = true;
+    } else {
+        overlay.style.backgroundColor = "rgba(0, 0, 0, 0)";
     }
 });
 
